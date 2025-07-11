@@ -67,7 +67,7 @@ This is a full-stack **User Management Web App** built using **HTML, CSS, JavaSc
 | user_id            | VARCHAR        |
 | password           | VARCHAR        |
 | role               | ENUM('user','admin') |
-| status             | ENUM('pending', 'approved', 'archived') |
+| status             | ENUM('pending', 'approved') |
 
 ## 📡 API Endpoints (Spring Boot)
 
@@ -80,7 +80,6 @@ This is a full-stack **User Management Web App** built using **HTML, CSS, JavaSc
 | `/api/admin/users`                 | GET    | View all users                |
 | `/api/admin/approve/{id}`          | POST   | Approve a user                |
 | `/api/admin/delete/{id}`           | DELETE | Delete a user                 |
-| `/api/admin/archive/{id}`          | POST   | Archive a user                |
 
 ---
 
